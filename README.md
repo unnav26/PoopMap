@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Poop Friend 💩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to **Poop Friend**—a silly little app where you and your friends can mark where you’ve pooped on a map! Built with React, Firebase, and Google Maps, it’s all about sharing laughs (and poops) with your crew.
 
-## Available Scripts
+## What It Does
 
-In the project directory, you can run:
+- **Drop a Poop:** Click the map to mark your poop spot with your initial and a 💩 emoji.
+- **Add Friends:** Log in and add your buddies by email to see their poop spots.
+- **See the Map:** Everyone’s poops show up—track your gang’s pooping adventures!
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Check it out here: https://poopfriend-7e2ff.web.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## How to Use
 
-### `npm test`
+1. **Sign Up/Log In:** Use an email and password to get started.
+2. **Drop a Poop:** Click anywhere on the map—your initial + 💩 marks the spot.
+3. **Add Friends:** Enter their email in the top-left box to see their poops.
+4. **Laugh:** Share the link and see who’s pooping where!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+- **React:** Frontend magic.
+- **Firebase:** Auth and database (Firestore) to store poops and friends.
+- **Google Maps API:** Shows the map and markers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup (For Devs)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Want to run it yourself? Here’s how:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. **Clone the Repo:**
+   ```bash
+   git clone https://github.com/unnav26/PoopMap.git
+   cd PoopMap
+   ```
