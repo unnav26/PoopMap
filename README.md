@@ -1,4 +1,4 @@
-# Poop Friend 💩
+# PoopMap 💩
 
 Welcome to **Poop Friend**—a silly little app where you and your friends can mark where you’ve pooped on a map! Built with React, Firebase, and Google Maps, it’s all about sharing laughs (and poops) with your crew.
 
